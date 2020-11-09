@@ -106,7 +106,7 @@ class BFSAlgo:
             isVisitedHospital.append(source)
             pathList = [[[source], 0]]
             num = 1
-            if num == self.k:
+            if num == k:
                 return 
         else:
             source = (source, False)
